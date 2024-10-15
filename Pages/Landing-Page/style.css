@@ -2,3 +2,33 @@
   margin: 0;
   padding: 0;
 }
+.wrapper {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#start-btn {
+  background-color: pink;
+  color: black;
+  width: 200px;
+  padding: 18px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: JetBrains Mono;
+  margin-bottom: 40px;
+}
+#message {
+  font-family: JetBrains Mono;
+  font-size: 30px;
+}
+#start-btn:active {
+  opacity: 0.5;
+}
+#start-btn:hover {
+  background-color: brown;
+}
